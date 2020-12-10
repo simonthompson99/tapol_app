@@ -8,6 +8,8 @@ authors = ["repl.it user <replituser@example.com>"]
 python = "^3.8"
 Flask = "^1.1.2"
 python-dotenv = "^0.15.0"
+flask-wtf = "^0.14.3"
+wtforms = "^2.3.3"
 
 [tool.poetry.dev-dependencies]
 
