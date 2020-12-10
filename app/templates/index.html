@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Hello, {{ user.username }}!</h1>
+{% for record in recordset %}
+<div><p>ID {{ record.id }} : <b>{{ record.title }}</b><br>
+{{ record.description }}</p></div>
+{% endfor %}
+
+{% endblock %}
